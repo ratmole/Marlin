@@ -1694,7 +1694,7 @@
    #endif
    #endif
 
-   #define FIL_RUNOUT_INVERTING true  // set to true to invert the logic of the sensors. some geeetech filament sensors are inverted if trigger with filament loaded invert.
+   #define FIL_RUNOUT_STATE  HIGH     // set to high to invert the logic of the sensors. some geeetech filament sensors are inverted if trigger with filament loaded invert.
    #define FIL_RUNOUT_PULLUP          // Use internal pullup for filament runout pins.
    //#define FIL_RUNOUT_PULLDOWN      // Use internal pulldown for filament runout pins.
 

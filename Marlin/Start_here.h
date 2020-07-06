@@ -71,7 +71,7 @@
 //#define CYCLOPS  // Enable Cyclops   2 in 1 - 2 Physical Stepper (C) 
 //#define CYCLOPST // Enable Cyclops   3 in 1 - 3 Physical Stepper (CT)
 //#define DUALEX   // 2 Extruders      2 in 2 - 2 Physical Stepper (D) 
-//#define TRIEX    // 3 Extruders      3 in 3 - 3 Physical Stepper (E3)
+//#define TRIEX    // 3 Extruders      3 in 3 - 3 Physical Stepper (E)
 
 //---------------
 //Hardware Mods |
