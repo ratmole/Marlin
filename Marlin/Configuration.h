@@ -1668,7 +1668,6 @@
  *
  * RAMPS-based boards use SERVO3_PIN for the first runout sensor.
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
- * By default the firmware assumes HIGH=FILAMENT PRESENT.
  */
 #if ENABLED (RUNOUT)
   #define FILAMENT_RUNOUT_SENSOR 
@@ -1895,7 +1894,7 @@
 //
 // - Allow Z homing only after X and Y homing AND stepper drivers still enabled.
 // - If stepper drivers time out, it will need X and Y homing again before Z homing.
-// - Move the Z probe (or nozzle) to a defined XY point before Z Homing when homing all axes (G28).
+// - Move the Z probe (or nozzle) to a defined XY point before Z Homing.
 // - Prevent Z homing when the Z probe is outside bed area.
 //
 #if ANY(BLTOUCH, FIX_MOUNTED_PROBE, TOUCH_MI_PROBE, SOLENOID_PROBE, RACK_AND_PINION_PROBE, NOZZLE_AS_PROBE) 
@@ -2743,7 +2742,7 @@
 // then the BLUE led is on. Otherwise the RED led is on. (1C hysteresis)
 //#define TEMP_STAT_LEDS
 
-// SkeinForge sends the wrong arc g-codes when using Arc Point as fillet procedure
+// SkeinForge sends the wrong arc G-codes when using Arc Point as fillet procedure
 //#define SF_ARC_FIX
 
 // Support for the BariCUDA Paste Extruder
