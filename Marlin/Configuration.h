@@ -184,7 +184,7 @@
 // @section extruder
 
 // This defines the number of extruders
-// :[1, 2, 3, 4, 5, 6, 7, 8]
+// :[0, 1, 2, 3, 4, 5, 6, 7, 8]
 #if ENABLED (CYCLOPST) || ENABLED (TRIEX)
   #define EXTRUDERS 3
 #elif ENABLED (CYCLOPS) || ENABLED (DUALEX)
