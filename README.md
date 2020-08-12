@@ -6,17 +6,9 @@ Currently integrated models include: :A10(C/CT/D/E3/M/T)/A20(C/CT/D/E3/M/T)/A30(
 
 ## Links
 
-GitHub Releases: https://github.com/Vertabreak/Marlin/releases
-
 Discord: https://discord.gg/brq79WQ
 
 YouTube: http://youtube.com/c/verta
-
-## Support This Repo
-
-[![Become a Patron!](https://i.imgur.com/BbE01dL.png)](https://www.patreon.com/vertabreaker)
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H71KL43)
 
 ## Building Firmware
 
