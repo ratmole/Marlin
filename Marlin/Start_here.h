@@ -66,7 +66,7 @@
 //-----------------------------------------------------------------------------------------------------
 
 //(Step 2) enable 1 if you have mixing or multi extruder (Variant)
-#define MIX      // Enable Mixing    2 in 1 - 1 Virtual Stepper (M)
+//#define MIX      // Enable Mixing    2 in 1 - 1 Virtual Stepper (M)
 //#define MIXT     // Enable Mixing    3 in 1 - 1 Virtual Stepper (T)
 //#define CYCLOPS  // Enable Cyclops   2 in 1 - 2 Physical Stepper (C) 
 //#define CYCLOPST // Enable Cyclops   3 in 1 - 3 Physical Stepper (CT)
