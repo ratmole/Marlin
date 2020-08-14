@@ -140,6 +140,9 @@
 //#define FULLGFXLCD      // Enable repreap full gfx lcd
 //#define CR10DISPLAY     // Enable cr10 style lcd
 
+//(Mixing Vtools) for use with Mix/Mixt
+//#define FULL_VTOOLS // enable this to load a full set of 8 Vtools on boot rather then the basic ones that are just 100% per extruder.
+
 //(Fan Mod) enable 1 (Mod) to override default FAN PWM
 //#define MECHFAN     // Enable Mechatronics fan 80 pwm
 //#define RADIALFAN   // Enable Radial fan 50 pwm
