@@ -3247,7 +3247,16 @@
  *
  * Execute certain G-code commands immediately after power-on.
  */
-//#define STARTUP_COMMANDS "G28"
+
+#if ENABLED (MIX)
+// Load Baisc 100% Vtools 0 1  for Mix on startup
+  #define STARTUP_COMMANDS "M163 S0 P1\nM163 S1 P0\nM164 S0\nM163 S0 P0\nM163 S1 P1\nM164 S1"
+#endif
+
+#if ENABLED (MIXT)
+// Load Baisc 100% Vtools 0 1 2 for MixT on startup
+  #define STARTUP_COMMANDS "M163 S0 P1\nM163 S1 P0\nM163 S2 P0\nM164 S0\nM163 S0 P0\nM163 S1 P1\nM163 S2 P0\nM164 S1\nM163 S0 P0\nM163 S1 P0\nM163 S2 P1\nM164 S2"
+#endif
 
 /**
  * G-code Macros
